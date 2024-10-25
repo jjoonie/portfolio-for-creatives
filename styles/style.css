@@ -11,8 +11,6 @@
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
-<style>
-
 
 /*
 
@@ -28,7 +26,6 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 /* TODO: Delete any stylesheets that you do not want to use. */
 
-@import url("make-something-fly.css");
 @import url("animated-gradient.css");
 @import url("text-stroke.css");
 @import url("stroke-shadow.css");
@@ -82,7 +79,7 @@ html {
   --body-typeface: "Baloo Bhaijaan 2", sans-serif;
   --heading-typeface: "Baloo Bhaijaan 2", sans-serif;
   --project-title-typeface: "Baloo Bhaijaan 2", sans-serif;
-  --background-color: #ffe100;
+  --background-color: #fff200;
   --background-color-about: #fff200;
   --background-color-footer: #fff200;
   --alt-background-color: #000000;
