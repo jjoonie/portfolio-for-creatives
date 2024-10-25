@@ -11,7 +11,6 @@
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
-<style>
 
 /*
 
@@ -26,7 +25,6 @@ Imported stylesheets. Remove the ones you do not want to use.
 */
 
 /* TODO: Delete any stylesheets that you do not want to use. */
-
 
 @import url("animated-gradient.css");
 @import url("text-stroke.css");
@@ -104,10 +102,11 @@ html {
   --visited-color: #000000;
   --project-title-color: #000000;
   --project-sidebar-background-color: transparent;
-  --project-sidebar-text-color: white;
+  --project-sidebar-text-color: black;
   --heart-color: rgb(255, 255, 255);
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #ffe600;
+  --text-selection-background-color: #fff200;
+
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
@@ -473,7 +472,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 50vh;
   background: var(--background-color-footer);
   padding: 1rem;
 }
@@ -556,8 +555,6 @@ a:active {
   justify-content: center;
 }
 
-
-
 .text-section {
   width: 100%;
 }
@@ -573,7 +570,6 @@ a:active {
 .project-details {
   width: 100%;
   padding: 1rem;
-
 }
 
 /* 
