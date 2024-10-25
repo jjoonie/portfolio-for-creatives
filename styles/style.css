@@ -11,6 +11,8 @@
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
+<style>
+
 
 /*
 
@@ -77,10 +79,10 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
+  --body-typeface: "Baloo Bhaijaan 2", sans-serif;
   --heading-typeface: "Baloo Bhaijaan 2", sans-serif;
   --project-title-typeface: "Baloo Bhaijaan 2", sans-serif;
-  --background-color: #fff200;
+  --background-color: #ffe100;
   --background-color-about: #fff200;
   --background-color-footer: #fff200;
   --alt-background-color: #000000;
@@ -104,9 +106,9 @@ html {
   --project-title-color: #000000;
   --project-sidebar-background-color: orangered;
   --project-sidebar-text-color: white;
-  --heart-color: darkred;
+  --heart-color: rgb(255, 255, 255);
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #5200ff;
+  --text-selection-background-color: #ffe600;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
