@@ -76,12 +76,12 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Baloo Bhaijaan 2", sans-serif;
-  --heading-typeface: "Baloo Bhaijaan 2", sans-serif;
-  --project-title-typeface: "Baloo Bhaijaan 2", sans-serif;
-  --background-color: #fff200;
-  --background-color-about: #fff200;
-  --background-color-footer: #fff200;
+  --body-typeface: "tomarik-brush", sans-serif;
+  --heading-typeface: "tomarik-poster", sans-serif;
+  --project-title-typeface: "tomarik-poster", sans-serif;
+  --background-color: #ffffff;
+  --background-color-about: #ffffff;
+  --background-color-footer: #ffffff;
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(0, 0, 0, 0.6);
   --h1-color: black;
@@ -105,7 +105,7 @@ html {
   --project-sidebar-text-color: black;
   --heart-color: rgb(255, 255, 255);
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #fff200;
+  --text-selection-background-color: #ffffff;
 
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
