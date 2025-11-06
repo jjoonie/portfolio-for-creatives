@@ -10,7 +10,7 @@
 
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap"rel="stylesheet");
 
 /*
 
@@ -76,9 +76,9 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "tomarik-brush", sans-serif;
-  --heading-typeface: "tomarik-poster", sans-serif;
-  --project-title-typeface: "tomarik-poster", sans-serif;
+  --body-typeface: "Darumadrop One", sans-serif;
+  --heading-typeface: "Darumadrop One", sans-serif;
+  --project-title-typeface: "Darumadrop One", sans-serif;
   --background-color: #ffffff;
   --background-color-about: #ffffff;
   --background-color-footer: #ffffff;
@@ -332,13 +332,14 @@ a:active {
 }
 
 .hero-headline-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
   flex: 1;
   align-items: center;
   justify-content: center;
   padding: 2rem 4rem;
-  text-align: center;
+  text-align: end;
 }
 
 .hero-icon {
@@ -382,8 +383,8 @@ a:active {
 /* Defining the work page grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: 5rem;
 }
 
 .work-page-grid-item {
