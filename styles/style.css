@@ -10,9 +10,7 @@
 
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
-@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap"rel="stylesheet");
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /*
 
@@ -100,7 +98,7 @@ html {
   --overlay-description-color: #ffffff;
   --hyperlink-color: #000000;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
+  --hover-color: #2e45a8;
   --visited-color: #000000;
   --project-title-color: #000000;
   --project-sidebar-background-color: transparent;
@@ -108,7 +106,6 @@ html {
   --heart-color: rgb(255, 255, 255);
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #ffffff;
-
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
@@ -220,8 +217,9 @@ em {
 }
 
 .overlay-title {
-  font-size: 2.875rem;
+  font-size: 1rem;
   color: var(--overlay-title-color);
+  background: blue;
 }
 
 .overlay-description {
@@ -339,11 +337,12 @@ a:active {
 
 .hero-headline-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
   text-align: end;
+  border: 10px solid red;
 }
 
 .hero-image {
@@ -393,8 +392,8 @@ a:active {
 /* Defining the work page grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  grid-gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.25rem;
 }
 
 .work-page-grid-item {
@@ -422,6 +421,7 @@ a:active {
   padding: 1em;
   background-color: var(--overlay-color);
   transition: opacity 0.3s, visibility 0.3s;
+  text-align: center;
 }
 
 .work-page-grid-item:hover .overlay {
@@ -549,11 +549,12 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
+
   /* TODO: Delete min-height if you want to remove space between project images on project pages on mobile devices. It is used for the demo page only. */
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .text-section {
@@ -633,7 +634,7 @@ a:active {
 
 /* TODO: Customize your 404 Error Page */
 .error-headline-wrapper {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -644,9 +645,8 @@ a:active {
   margin: 0 auto;
 }
 
-.error-page-animation {
-  width: 35rem;
-  max-height: 50%;
+.error-illustration {
+  border: 10px solid greenyellow;
 }
 /* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */
 
@@ -751,10 +751,16 @@ a:active {
 
   .hero-headline-wrapper {
     padding: 1rem;
+    flex-direction: row;
+    border: 10px solid orange;
+  }
+
+  .overlay-title {
+    font-size: 2.875rem;
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 1rem;
   }
 
@@ -836,11 +842,12 @@ a:active {
   /* Sidebar on Large Devices */
   .project-aside {
     width: 35%;
-    height: 65vh;
+    height: 95vh;
     position: -webkit-sticky;
     position: sticky;
     top: 5vh;
     padding-right: 2rem;
+    background: orange;
   }
 
   /* Main Project Image Area on Large Devices */
@@ -864,6 +871,11 @@ a:active {
   .arrow {
     padding-right: 1rem;
   }
+
+  .error-illustration {
+    width: 35%;
+    border: 10px solid rgb(99, 2, 254);
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
@@ -872,7 +884,7 @@ a:active {
   /* TODO: Add styles here for X-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 
