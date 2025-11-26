@@ -332,7 +332,11 @@ a:active {
 
 .logo {
   width: 3rem;
-  /* TODO: Adjust the width of the logo on mobile devices here. */
+  fill: rgb(0, 0, 0);
+}
+
+.logo:hover {
+  fill: rgb(63, 0, 253);
 }
 
 .hero-headline-wrapper {
@@ -735,14 +739,6 @@ a:active {
   .logo {
     width: 5rem;
     /* TODO: Adjust the width of the logo on large devices here. */
-  }
-
-  .wordmark {
-    fill: black;
-  }
-
-  .wordmark:hover {
-    fill: white;
   }
 
   .hero {
