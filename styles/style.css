@@ -334,7 +334,8 @@ a:active {
   fill: rgb(0, 0, 0);
 }
 
-.logo:hover {
+.logo-hover {
+  fill: var(--hover-color);
 }
 
 .hero-headline-wrapper {
@@ -445,7 +446,7 @@ a:active {
   grid-template-columns: 1fr;
   grid-gap: 5rem;
   background: var(--background-color-about);
-  padding: 5rem;
+  padding: 2rem;
   flex: 1;
 }
 
@@ -533,7 +534,7 @@ a:active {
   display: flex;
   flex-direction: row;
   flex: 1;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
