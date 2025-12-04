@@ -219,7 +219,6 @@ em {
 .overlay-title {
   font-size: 1rem;
   color: var(--overlay-title-color);
-  background: blue;
 }
 
 .overlay-description {
@@ -336,7 +335,6 @@ a:active {
 }
 
 .logo:hover {
-  fill: rgb(63, 0, 253);
 }
 
 .hero-headline-wrapper {
@@ -346,7 +344,6 @@ a:active {
   justify-content: center;
   padding: 1rem 2rem;
   text-align: end;
-  border: 10px solid red;
 }
 
 .hero-image {
@@ -650,7 +647,6 @@ a:active {
 }
 
 .error-illustration {
-  border: 10px solid greenyellow;
 }
 /* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */
 
@@ -748,7 +744,6 @@ a:active {
   .hero-headline-wrapper {
     padding: 1rem;
     flex-direction: row;
-    border: 10px solid orange;
   }
 
   .overlay-title {
@@ -771,7 +766,7 @@ a:active {
   }
 
   .about {
-    padding: 4rem;
+    padding: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -843,7 +838,6 @@ a:active {
     position: sticky;
     top: 5vh;
     padding-right: 2rem;
-    background: orange;
   }
 
   /* Main Project Image Area on Large Devices */
@@ -870,7 +864,6 @@ a:active {
 
   .error-illustration {
     width: 35%;
-    border: 10px solid rgb(99, 2, 254);
   }
 }
 
