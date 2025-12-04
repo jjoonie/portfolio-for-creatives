@@ -217,7 +217,7 @@ em {
 }
 
 .overlay-title {
-  font-size: 1rem;
+  font-size: 3rem;
   color: var(--overlay-title-color);
 }
 
@@ -316,7 +316,7 @@ a:active {
 */
 
 .hero {
-  min-height: 80vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
 }
@@ -739,7 +739,7 @@ a:active {
   }
 
   .hero {
-    min-height: 80vh;
+    min-height: 10vh;
   }
 
   .hero-headline-wrapper {
