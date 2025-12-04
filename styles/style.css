@@ -261,9 +261,9 @@ a:active {
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: var(--accent-color);
+  color: var(--hover-color);
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--accent-color);
+  -webkit-text-stroke-color: var(--hover-color);
 }
 
 .colored-link {
